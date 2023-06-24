@@ -1,0 +1,111 @@
+.main-container {
+    padding: 0 50px 50px 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+form label span {
+    color: #008080ff;
+}
+
+.create form label button {
+    position: relative;
+    bottom: 2px;
+    padding: 0 3px !important;
+}
+
+.create form label button svg {
+    font-size: 18px;
+}
+
+.create form .submit {
+    margin-top: 20px;
+}
+
+.create .spinner {
+    right: 20px;
+    position: absolute;
+}
+
+.interact .label {
+    color: #76ffffff;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.interact .function button {
+    text-transform: none;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.interact .function .argument {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.interact .function .argument.address {
+    width: 262px;
+}
+
+.interact .function .response {
+    margin-top: 5px;
+}
+
+.interact .search {
+    text-align: center;
+}
+
+.interact .search .input {
+    margin-left: 10px;
+    width: 450px;
+}
+
+@media (max-width: 670px) {
+    .interact .search .input {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.create h1, .interact h1 {
+    text-align: center;
+}
+
+.link-container {
+    text-align: center;
+}
+
+.link {
+    color: #76ffffff;
+    text-decoration: none;
+}
+
+.link svg {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.metadata-card {
+    padding: 10px 20px 0 20px;
+    margin-bottom: 30px;
+}
+
+.MuiAlert-root {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 99;
+    margin-right: 15px;
+}
+
+hr {
+    background-color: #008080ff !important;
+    margin-top: 10px !important;
+}
+
+.spinner {
+    width: 25px !important;
+    height: 25px !important;
+}
