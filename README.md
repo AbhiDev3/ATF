@@ -1,80 +1,54 @@
-<h1 align="center">Aurora Token Factory</h1>
-<p align="center">
-  <img src="/public/logo512.png" width="350" title="Aurora Token Factory">
-</p>
+# ATF
 
-ATF is a dApp that provides an easy way to create ERC-20 tokens and interact with its contracts in the [Aurora network](https://aurora.dev/).
+Aurora Token Factory (ATF) is a decentralized application (dApp) that empowers users to create personalized ERC-20 tokens with ease, even without prior programming experience. It provides a user-friendly interface and leverages the Aurora network for contract deployment and interaction. The dApp also allows users to retrieve information about existing ERC-20 tokens by providing their contract addresses.
 
-# Develpment
+## Inspiration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project drew inspiration from various networks and tools, such as:
 
-## Available Scripts
+- [ERC20 Generator](https://vittominacori.github.io/erc20-generator/create-token/)
+- [Create My Token](https://www.createmytoken.com/token-builder/)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Create personalized ERC-20 tokens through an intuitive user interface.
+- Retrieve information about existing ERC-20 tokens by providing contract addresses.
+- Interact directly with smart contracts on the Aurora network from the dApp.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How It Works
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. The ERC-20 token template is created using Remix and compiled to obtain the ABI, bytecode, and flattened source code.
+2. The frontend of the application is built using React, enabling a seamless user experience.
+3. The dApp interacts with the Aurora network to deploy ERC-20 contracts based on user-provided parameters.
+4. Users can also interact with existing contracts on the blockchain by leveraging the provided functionalities.
+5. The dynamic interaction form is currently created using the template ABI, supporting interaction with ERC-20 tokens exclusively.
 
-### `npm test`
+## Challenges
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During development, a particular challenge was encountered with the contract verification feature. Although a functionality was implemented to verify contracts after creation, it exhibited inconsistent behavior. It is currently unclear whether the issue stems from the API or the implementation approach. The interaction form is currently limited to the template ABI, restricting support to ERC-20 tokens.
 
-### `npm run build`
+## Accomplishments
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Notable achievements include:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Successful creation of a React application, despite prior experience primarily with Angular.
+- Gaining familiarity with Solidity and deploying smart contracts from a web client.
+- Developing a functional product that serves as a promising initial release.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Enhancements
 
-### `npm run eject`
+The roadmap for Aurora Token Factory includes the following enhancements:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Resolving the contract verification issue to provide reliable functionality.
+- Enabling interaction with various types of smart contracts beyond ERC-20.
+- Expanding configuration parameters for ERC-20 token creation to enhance customization options.
+- Adding support for additional standards such as ERC-721 and ERC-1155.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get started with Aurora Token Factory, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# License
-[MIT license](LICENSE).
+1. Clone the repository: `git clone https://github.com/AbhiDev3/ATF.git`
+2. Install dependencies: `npm install`
+3. Launch the dApp locally: `npm start`
+4. Access the application in your browser at: `http://localhost:3000`
